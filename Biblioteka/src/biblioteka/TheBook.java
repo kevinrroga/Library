@@ -75,15 +75,6 @@ public class TheBook {
 	{
 		return purchasedDate;
 	}
-		
-	public int getDoubleID()
-	{
-		return this.OrderID;
-	}
-	public void setDoubleId(int id)
-	{
-		this.OrderID=id;
-	}
 	public int getQuantity()
 	{
 		return quantity;
@@ -92,6 +83,15 @@ public class TheBook {
 	{
 		this.quantity=quantity;
 	}
+	public int getDoubleID()
+	{
+		return this.OrderID;
+	}
+	public void setDoubleId(int id)
+	{
+		this.OrderID=id;
+	}
+	
 	public int getSoldQuantity()
 	{
 		return soldQuantity;
@@ -108,9 +108,9 @@ public class TheBook {
 	}
 	public String toString ()
 		{
-	return "title: "+ title + ", Category: " + category + ", ISBN: " + ISBN 
+	return "ISBN "+ ISBN + ", Category: " + category + ", Title " + title
 	+ ", Supplier: " + supplier + " Price:" +
-	purchasedPrice + "In stock: "+quantity + "Sold number: " + soldQuantity;
+	purchasedPrice + "In stock: "+ quantity + "Sold number: " + soldQuantity;
 	}
 	public String BillString()
 	{
