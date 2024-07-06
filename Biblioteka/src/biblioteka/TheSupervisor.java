@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package biblioteka;
 
 public class TheSupervisor extends TheUser {
@@ -14,7 +14,7 @@ public class TheSupervisor extends TheUser {
 		super(name,surname,email,password);
 	}
 }
-=======
+
 package biblioteka;
 
 public class TheSupervisor extends TheUser {
