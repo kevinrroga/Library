@@ -30,4 +30,3 @@ public class TheSupervisor extends TheUser {
 		super(name,surname,email,password);
 	}
 }
->>>>>>> branch 'master' of https://github.com/kevinrroga/Library.git
