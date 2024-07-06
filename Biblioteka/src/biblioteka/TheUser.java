@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package biblioteka;
 
 public class TheUser {
@@ -47,7 +47,7 @@ public class TheUser {
 				+ " Email -> " + this.email);
 	}
 }
-=======
+
 package biblioteka;
 
 public class TheUser {
@@ -96,4 +96,3 @@ public class TheUser {
 				+ " Email -> " + this.email);
 	}
 }
->>>>>>> branch 'master' of https://github.com/kevinrroga/Library.git
